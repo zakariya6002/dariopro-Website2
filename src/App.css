@@ -11896,6 +11896,11 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+.scrollerImg {
+  width: 130%;
+  height: 150%;
+  margin-top: 10rem;
+}
 .slider {
   height: 80vh;
   position: relative;
