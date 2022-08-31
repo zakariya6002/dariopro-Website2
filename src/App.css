@@ -4327,6 +4327,7 @@ fieldset:disabled .btn {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  background-color: #ffffff;
 }
 .navbar > .container,
 .navbar > .container-fluid,
@@ -11749,7 +11750,7 @@ html {
   margin-top: 1rem;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #000;
 }
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
   color: #1abc9c;
@@ -11895,4 +11896,22 @@ html {
 
 .copyright {
   background-color: #1a252f;
+}
+.carousel-item {
+  height: 70vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 108px;
+}
+.logo {
+  height: 8vh;
+  width: 20vh;
+}
+.pic1 {
+  width: 100%;
+  height: 100%;
 }
